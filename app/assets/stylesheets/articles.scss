@@ -1,0 +1,24 @@
+// Place all the styles related to the articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+.title{
+  // border: solid 1px black;
+  width: 450px;
+  justify-content: space-arround;
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  margin: 10px;
+  padding: 10px;
+}
+
+
+.articleDetail{
+  // border: solid 1px black;
+  width: 450px;
+  align-items: center;
+  font-size: 18px;
+  margin: 10px;
+  padding: 10px;
+}

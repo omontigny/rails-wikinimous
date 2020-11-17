@@ -49,3 +49,9 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+gem 'faker'
+# Simple Form provide a new helper that will generate form with Bootstrap classes
+gem 'simple_form'
+# add font-awesome
+gem "font-awesome-rails"
