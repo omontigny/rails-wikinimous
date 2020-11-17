@@ -10,7 +10,7 @@ class ArticlesController < ApplicationController
 
   def create
     @article = Article.new(article_params)
-    @article.save
+    @article.save!
 
      # no need for app/views/restaurants/create.html.erb
       redirect_to articles_path(@article)
